@@ -243,7 +243,7 @@ def main():
     """
     main function processes only argument parsing
     """
-    parser = ArgumentParser(description='기분석 사전을 빌드하는 스크립트')
+    parser = ArgumentParser(description='오분석 패치를 빌드하는 스크립트')
     parser.add_argument('--model-size', help='model size <default: base>',
                         metavar='SIZE', default='base')
     parser.add_argument('--rsc-src', help='source directory (text) <default: ./src>',
